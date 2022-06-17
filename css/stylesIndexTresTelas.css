@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.geral{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;  
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+img{
+    display: flex;
+    margin: auto;
+}
+
+
+.pos-f-t{
+    width: 60px;
+    display: flex;
+    background-color: blue;
+    float: left;
+ }
+ 
+
+form{
+    width: 28%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#inputEntrada{
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center  ;
+}
+
+button{
+    margin: 15px;
+    width: 100%;
+   
+}
+
+.quantidadeDeAlunos{
+
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.quantidadeDeAlunos spam{
+    background-color: red;
+
+}
+
+.btn-voltar{
+    display: flex;
+    width: 150px;
+    margin:0;
+    padding: 0%;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.dropdown-divider{
+    background-color: red;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+
+    img{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+  }

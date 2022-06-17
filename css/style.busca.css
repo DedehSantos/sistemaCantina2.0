@@ -1,0 +1,56 @@
+.container{
+    margin-top: 10%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Marsden;
+    src: url(../fonts/Marsden-Cm-Bold.ttf);
+ }
+
+h1{
+    text-align: center;
+    font-family: Marsden;
+}
+
+
+
+form{
+    display: flex;
+    margin: auto;
+}
+
+.input_nome{
+
+    font-size: 32px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+button{
+    margin-top: 30px;
+}
+
+label{
+    color: rgba(29, 28, 28, 0.952);
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+       display: flex;
+       width: 100%;
+       flex-direction: column;
+    } 
+    .container form{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+     }
+
+     .input_nome{
+         font-size: 20px;
+     }
+    
+  }
